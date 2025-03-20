@@ -1,0 +1,10 @@
+
+# remove ".example" from the end of the file name
+aws_region     = "eu-west-1"
+aws_profile    = "default"
+s3_bucket_name = "project-terraform-state"
+tags = {
+  Environment = "Development"
+  ManagedBy   = "Terraform"
+}
+
